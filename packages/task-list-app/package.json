@@ -1,17 +1,15 @@
 {
-  "name": "@monorepo/main-app",
+  "name": "@monorepo/task-list-app",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "exports": {
+    "./index": "./src/index.tsx"
+  },
+  "license": "MIT",
   "scripts": {
-    "dev": "vite --clearScreen false",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "lint": "eslint \"src/**/*.{ts,tsx}\""
+    "lint": "eslint \"**/*.ts\""
   },
   "devDependencies": {
-    "@monorepo/task-form-app": "workspace:*",
-    "@monorepo/task-list-app": "workspace:*",
     "@monorepo/types": "workspace:*",
     "@monorepo/eslint-config": "workspace:*",
     "@monorepo/typescript-config": "workspace:*",

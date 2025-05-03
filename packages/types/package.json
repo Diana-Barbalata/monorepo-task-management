@@ -1,0 +1,12 @@
+{
+  "name": "@monorepo/types",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@monorepo/typescript-config":"workspace:*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
