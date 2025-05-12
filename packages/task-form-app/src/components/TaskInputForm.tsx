@@ -1,4 +1,4 @@
-import { FC, useState } from "react";
+import {FC, useState} from "react";
 
 type Props = {
   onAddTask: (task: string) => void;
@@ -22,9 +22,9 @@ const TaskForm: FC<Props> = ({ onAddTask }) => {
         type="text"
         value={newTask}
         onChange={(e) => setNewTask(e.target.value)}
-        placeholder="Add new task"
+        placeholder="Adaugă un element în listș"
       />
-      <button type="submit">Add Task</button>
+      <button type="submit">Adaugă element</button>
     </form>
   );
 };
