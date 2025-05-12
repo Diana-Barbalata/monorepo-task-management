@@ -1,5 +1,5 @@
-import { Task } from "@repo/types";
-import { FC } from "react";
+import {Task} from "@monorepo/types";
+import {FC} from "react";
 
 type Props = {
   task: Task;

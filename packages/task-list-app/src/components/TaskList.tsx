@@ -1,5 +1,5 @@
 import TaskItem from "./TaskItem.tsx";
-import {Task} from "@repo/types";
+import {Task} from "@monorepo/types";
 import {FC} from "react";
 
 type Props = {
