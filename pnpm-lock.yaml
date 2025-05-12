@@ -36,12 +36,12 @@ importers:
       '@monorepo/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint-config
-      '@monorepo/task-form-app':
+      '@monorepo/task-form-pkg':
         specifier: workspace:*
-        version: link:../../packages/task-form-app
-      '@monorepo/task-list-app':
+        version: link:../../packages/task-form-pkg
+      '@monorepo/task-list-pkg':
         specifier: workspace:*
-        version: link:../../packages/task-list-app
+        version: link:../../packages/task-list-pkg
       '@monorepo/types':
         specifier: workspace:*
         version: link:../../packages/types
@@ -76,7 +76,7 @@ importers:
         specifier: ^8.26.1
         version: 8.31.1(eslint@9.26.0)(typescript@5.7.3)
 
-  packages/task-form-app:
+  packages/task-form-pkg:
     devDependencies:
       '@monorepo/eslint-config':
         specifier: workspace:*
@@ -97,7 +97,7 @@ importers:
         specifier: ^6.3.1
         version: 6.3.4
 
-  packages/task-list-app:
+  packages/task-list-pkg:
     devDependencies:
       '@monorepo/eslint-config':
         specifier: workspace:*

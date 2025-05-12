@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo/task-form-app",
+  "name": "@monorepo/task-form-pkg",
   "private": true,
   "version": "0.0.0",
   "exports": {

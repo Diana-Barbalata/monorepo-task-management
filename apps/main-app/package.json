@@ -10,8 +10,8 @@
     "lint": "eslint \"src/**/*.{ts,tsx}\""
   },
   "devDependencies": {
-    "@monorepo/task-form-app": "workspace:*",
-    "@monorepo/task-list-app": "workspace:*",
+    "@monorepo/task-form-pkg": "workspace:*",
+    "@monorepo/task-list-pkg": "workspace:*",
     "@monorepo/types": "workspace:*",
     "@monorepo/eslint-config": "workspace:*",
     "@monorepo/typescript-config": "workspace:*",
