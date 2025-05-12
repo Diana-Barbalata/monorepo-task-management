@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div>
-      <h1>Task Management (Monorepo)</h1>
+      <h1>Listă de cumpărături (Monorepo)</h1>
       <TaskFormApp onAddTask={addTask} />
       <TaskListApp
         tasks={tasks}
